@@ -10,6 +10,41 @@
   body{
     background-color: aqua;
   }
+  #banner #banner_img {
+  width: 30%;
+  height: 300px;
+}
+
+#banner a {
+  background-color: #F08F19;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+#banner a:hover {
+  background-color: #B8B7A9;
+  color: white;
+}
+
+#banner a.hover {
+  background-color: #B8B7A9;
+  color: white;
+}
+
+#banner #botoes {
+  width: 900px;
+  text-align: left;
+}
+
+#banner #botoes {
+  padding-top: 5px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
 }
 
 /* PC */
