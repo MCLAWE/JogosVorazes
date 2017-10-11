@@ -156,7 +156,151 @@
 
 /* PC */
 @media screen and ( min-width: 1024px ) and (min-height: 618px){
+
   body{
-    background-color: aqua;
+    background-color: black;
+    color: white;
+  }
+
+  #img_head{
+    position: fixed;
+    top: 0%;
+    left: 20%;
+    width: 60%;
+    height: 40%;
+  }
+
+  #title{
+    position: fixed;
+    top: 41%;
+    left: 50%;
+    width: 40%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 45px;
+    color: rgb(198, 197, 197);
+  }
+
+  #img_title{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 25%;
+  }
+
+  #menu{
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 8%;
+  }
+
+  #a1{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    font-size: 30px;
+    color: rgb(198, 197, 197);
+    font-weight: bold;
+  }
+
+  #a2{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    font-size: 30px;
+    color: rgb(198, 197, 197);
+    font-weight: bold;
+  }
+
+  #video{
+    position: fixed;
+    top: 42%;
+    left: 15%;
+    width: 30%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+  }
+
+  #video_{
+    width: 100%;
+    height: 100%;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(198, 197, 197);
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #body_dados{
+    background-color: black;
+  }
+
+  #head_dados{
+    position: fixed;
+    top: 5%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 90px;
+    color: white;
+  }
+
+  #box1{
+    position: fixed;
+    top: 25%;
+    left: 5%;
+    width: auto;
+    height: 30%;
+    color: white;
+  }
+
+  #box2{
+    position: fixed;
+    top: 25%;
+    left: 55%;
+    width: auto;
+    height: 30%;
+    color: white;
+  }
+
+  #titled{
+    font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #textd{
+    font-family: arial;
+    font-size: 30px;
   }
 }
