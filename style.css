@@ -1,10 +1,148 @@
 /*SmartPhone */
 @media screen and ( max-width: 360px ) and (max-height: 640px){ 
+  
+  #body_dados{
+    background-color: black;
+  }
+
+  #head_dados{
+    position: fixed;
+    top: 5%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+  }
+  #box1{
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    width: auto;
+    height: 30%;
+    color: white;
+  }
+
+  #box2{
+    position: fixed;
+    top: 55%;
+    left: 5%;
+    width: auto;
+    height: 30%;
+    color: white;
+  }
+
+  #titled{
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #textd{
+    font-family: arial;
+    font-size: 16px;
+  }
+  
+  #img_title{
+    position: absolute;
+    width: 50%;
+    left:55%;
+    top: 48%;
+  }
+  #menu{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 85%;
+    height: 5%;
+  }
+  .texto{
+    font-family: Arial;
+    color: rgb(198, 197, 197);
+  }
+  #a1{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(198, 197, 197);
+    font-weight: bold;
+  }
+  #a2{
+    position: absolute;
+    width: 40%;
+    left: 60%;
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(198, 197, 197);
+    font-weight: bold;
+  }
+  .imagens{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video{
+    position: fixed;
+    top: 42%;
+    left: 5%;
+    width: 50%;
+
+    font-family: fantasy;
+  }
+
+  #video_{
+    width: 100%;
+    height: 100%;
+  }
+  
+  body{
+    background-color: black;
+
+  }
+  a{
+    text-align: center;
+    color: rgb(198, 197, 197);
+    text-decoration: none;
+
+  }
+
+  p{
+    font-family: fantasy;
+    color: white;
+  }
+  #img_head{
+    width: 100%;
+    height: 20%;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #title{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+
+    text-align: center;
+  }
+  .titulo{
+    font-family: fantasy;
+    color: rgba(249, 49, 0, 0.85);
+  }
+  
 }
 
 /* Tablet */
 @media screen and ( min-width: 360px ) and (min-height: 640px) and (max-width: 768px) and (max-height: 1024px){
-  
+
   body{
     background-color: black;
     color: white;
@@ -31,7 +169,7 @@
     font-size: 45px;
     color: rgb(198, 197, 197);
   }
-  
+
   #img_title{
     position: fixed;
     top: 50%;
@@ -47,7 +185,7 @@
     width: 100%;
     height: 8%;
   }
-  
+
   #a1{
     position: absolute;
     top: 0%;
@@ -62,7 +200,7 @@
     color: rgb(198, 197, 197);
     font-weight: bold;
   }
-  
+
   #a2{
     position: absolute;
     top: 0%;
@@ -77,7 +215,7 @@
     color: rgb(198, 197, 197);
     font-weight: bold;
   }
-  
+
   #video{
     position: fixed;
     top: 41%;
@@ -89,26 +227,26 @@
     align-items: center;
     font-family: fantasy;
   }
-  
+
   #video_{
     width: 100%;
     height: 100%;
   }
-  
+
   a{
     text-decoration: none;
     color: rgb(198, 197, 197);
   }
-  
+
   img{
     width: 100%;
     height: 100%;
   }
-  
+
   #body_dados{
     background-color: black;
   }
-  
+
   #head_dados{
     position: fixed;
     top: 0%;
@@ -122,7 +260,7 @@
     font-size: 90px;
     color: white;
   }
-  
+
   #box1{
     position: fixed;
     top: 13%;
@@ -131,7 +269,7 @@
     height: 30%;
     color: white;
   }
-  
+
   #box2{
     position: fixed;
     top: 46%;
@@ -140,18 +278,18 @@
     height: 30%;
     color: white;
   }
-  
+
   #titled{
     font-family: arial;
     font-size: 35px;
     font-weight: bold;
   }
-  
+
   #textd{
     font-family: arial;
     font-size: 30px;
   }
-  
+
 }
 
 /* PC */
